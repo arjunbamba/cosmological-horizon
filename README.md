@@ -1,9 +1,9 @@
 ## ✨ Cosmological Horizon Plotting/Visualization Tool 💫
 
 ### 🌱 Introduction 🚀
-Physics 495 (Senior Project) - Fall 2021
-Project Mentor: Professor Vera Gluscevic
-Developer: Arjun Bamba
+Physics 495 (Senior Project) - Fall 2021 \
+Project Mentor: Professor Vera Gluscevic \
+Developer: Arjun Bamba \
 Contact: arjunbam@usc.edu
 
 This tool enables you to plot and visualize either all 3 universes (Hyperbolic, Euclidean, Spherical) using default parameters or just the Euclidean universe alone using custom parameters.
@@ -29,7 +29,7 @@ This tool enables you to plot and visualize either all 3 universes (Hyperbolic, 
 8. In the project panel in PyCharm, please ensure there is a `videos` subdirectory located within the root directory. This should already be there but if not, please create a new directory called `videos` in the project root directory: right-click on the root directory in the project panel and then go to New > Directory to create the `videos` subdirectory. It is in this `videos` subdirectory that the project visualization videos will be later saved.
 9. Open the 'Cosmic_Horizon.py' file.
 10. Right-click on the open `Cosmic_Horizon.py` tab and click on `Run 'Cosmic_Horizon'`. 
-11. Follow the on-screen instructions in the console - the following information will be displayed in the console at the start of the program to explain how the tool functions:
+11. Follow the on-screen instructions in the console - the following information will be displayed in the console at the start of the program to explain how the tool functions: \
     Using this tool, you will have the option to plot and visualize either all 3 universes (Hyperbolic, Euclidean, Spherical) using default parameters or just the Euclidean universe alone using custom parameters.
     You will be asked 3-4 questions: 
     * Question 1 will ask whether you would like to plot all 3 universes using default parameters.
