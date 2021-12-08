@@ -16,15 +16,15 @@ This tool enables you to plot and visualize either all 3 universes (Hyperbolic, 
     * From the main menu bar, choose File > Open
     * In the dialog that opens, select the directory that contains the desired source code. In our case, this is simply the root directory that was cloned/downloaded from GitHub.
     * Click Open/OK.
-    * If there's a pop-up asking you to specify whether you want the new project to be opened in a separate window, click 'New Window'.
+    * If there's a pop-up asking you to specify whether you want the new project to be opened in a separate window, click `New Window`.
 3. The primary files in this project assume that you have certain packages/dependencies installed (e.g. matplotlib, numpy, opencv-python, scipy, ffmpeg, etc.). If you do not have these packages installed in PyCharm, please continue with step 4. Otherwise, if you do have these packages installed, skip to step 8.
 4. To install the needed dependencies, from the main menu bar, select PyCharm > Preferences. 
-5. In the window that opens, navigate to and open the 'Project: cosmological-horizon-...' submenu on the left side. Within the submenu, select Python Interpreter.
+5. In the window that opens, navigate to and open the `Project: cosmological-horizon-...` submenu on the left side. Within the submenu, select Python Interpreter.
 
 ![Figure 1](/Figure_1.png "Figure 1")
 **Figure 1**
 
-6. Click the '+' icon to add new packages. Please make sure you have the following packages installed: matplotlib, numpy, opencv-python, scipy. Others that may be needed due to dependencies: astropy, pandas.
+6. Click the `+` icon to add new packages. Please make sure you have the following packages installed: matplotlib, numpy, opencv-python, scipy. Others that may be needed due to dependencies: astropy, pandas.
     * Please refer to **Figure 1** that shows all packages in my environment for reference and to debug any dependency/package issues. **Note: not all the packages that I have are likely needed.**
     * Also, note here that my Python Interpreter is Python 3.9.
 7. Now, to install ffmpeg, open terminal and run `brew install ffmpeg`. This command assumes that you have the Mac package manager, Homebrew, installed on your computer; if you don't, please refer to guide (b) to install homebrew first and then return to install ffmpeg.
@@ -38,15 +38,22 @@ This tool enables you to plot and visualize either all 3 universes (Hyperbolic, 
     Using this tool, you will have the option to plot and visualize either all 3 universes (Hyperbolic, Euclidean, Spherical) using default parameters or just the Euclidean universe alone using custom parameters.
     You will be asked 3-4 questions: 
     * Question 1 will ask whether you would like to plot all 3 universes using default parameters.
-        * --> If you answer 'yes', it will proceed to plot all 3 universes using the following default parameters:
+        * --> If you answer `yes`, it will proceed to plot all 3 universes using the following default parameters:
             * Universe Parameters: Ω<sub>k</sub> > 0, Ω<sub>m</sub> = 0.9, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = 0 
             * Euclidean Universe Parameters: Ω<sub>k</sub> = 0, Ω<sub>m</sub> = 0.3, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = (1 - Ω<sub>m</sub> - Ω<sub>r</sub>) 
             * Spherical Universe Parameters: Ω<sub>k</sub> < 0, Ω<sub>m</sub> = 0.3, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = 0.8
-        * --> If you answer 'no', it will (later) ask you for your custom Omega_m and Omega_r parameters to plot/visualize a Euclidean universe.
+        * --> If you answer `no`, it will (later) ask you for your custom Omega_m and Omega_r parameters to plot/visualize a Euclidean universe.
     * Question 2 will ask until what redshift would you like to plot/visualize. This must be any number (integer or decimal) between the given bounds: 10 <= redshift <= 1100. You will be asked in Question 3 whether you would like to make a visualization/movie. These redshift bounds are to simply ensure that the visualization renders appropriately (should you choose to go that route). 
     * Question 3 will ask whether you would like to make a visualization/movie.
-        * --> If you answer 'yes', depending on how you answered Question 1, it will proceed to make a visualization for either all 3 universes or only the Euclidean one. Image frames will be saved in automatically created directories named 'images_[type of universe]' and the visualization video will be stored in the 'videos' directory with name 'Visualization_[type of universe]'.
-        * --> If you answer 'no', it will proceed to simply plot the universe(s).
+        * --> If you answer `yes`, depending on how you answered Question 1, it will proceed to make a visualization for either all 3 universes or only the Euclidean one. Image frames will be saved in automatically created directories named `images_[type of universe]` and the visualization video will be stored in the `videos` directory with name `Visualization_[type of universe]`.
+        * --> If you answer `no`, it will proceed to simply plot the universe(s).
+
+
+***NOTE 1***: All these instructions are intended to run the program with MacOS - although they should be more or less similar on Windows as well.
+
+***NOTE 2***: The visualization image frames are for redshifts in increments of 10 and default video speed is 10 frames/second. So, for example, if you enter a redshift of 100, it will create 10 image frames and a visualization video of approximately 1 second. As expected, higher redshifts will result in more frames and thus, longer visualization videos.
+
+***NOTE 3***: Only if you're unable to install `ffmpeg` for the visualization videos, as a last resort, you will need to slightly modify the source code. Comment out the following lines in `Cosmic_Horizon.py` that use the ffmpeg command: 299-301, 336-338, 379-381, 434-436. Run the script. Then, if you'd like to see the visualization video, please open `makeVideo.py` and provide the corresponding image folder and the name of the output video name (this will need to end in `.avi`). Then, run the `makeVideo.py` script to make the video. If you're on a Mac, the `.avi` video will not open, so use the following free converter to convert to `.mp4`: https://www.freeconvert.com/avi-to-mp4
 
 
 ### 🔭 Extraneous Files 👣
