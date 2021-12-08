@@ -28,15 +28,15 @@ This tool enables you to plot and visualize either all 3 universes (Hyperbolic, 
     * b. Reference guide to install homebrew: https://brew.sh
 8. In the project panel in PyCharm, please ensure there is a `videos` subdirectory located within the root directory. This should already be there but if not, please create a new directory called `videos` in the project root directory: right-click on the root directory in the project panel and then go to New > Directory to create the `videos` subdirectory. It is in this `videos` subdirectory that the project visualization videos will be later saved.
 9. Open the 'Cosmic_Horizon.py' file.
-10. Right-click on the open 'Cosmic_Horizon.py' tab and click on `Run 'Cosmic_Horizon'`. 
+10. Right-click on the open `Cosmic_Horizon.py` tab and click on `Run 'Cosmic_Horizon'`. 
 11. Follow the on-screen instructions in the console - the following information will be displayed in the console at the start of the program to explain how the tool functions:
     Using this tool, you will have the option to plot and visualize either all 3 universes (Hyperbolic, Euclidean, Spherical) using default parameters or just the Euclidean universe alone using custom parameters.
     You will be asked 3-4 questions: 
     * Question 1 will ask whether you would like to plot all 3 universes using default parameters.
-        * --> If you answer 'yes', it will proceed to plot all 3 universes using the following default parameters: 
-        Hyperbolic Universe Parameters: Ω<sub>k</sub> > 0, Ω<sub>m</sub> = 0.9, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = 0 
-        Euclidean Universe Parameters: Ω<sub>k</sub> = 0, Ω<sub>m</sub> = 0.3, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = (1 - Ω<sub>m</sub> - Ω<sub>r</sub>) 
-        Spherical Universe Parameters: Ω<sub>k</sub> < 0, Ω<sub>m</sub> = 0.3, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = 0.8
+        * --> If you answer 'yes', it will proceed to plot all 3 universes using the following default parameters: \
+            * Universe Parameters: Ω<sub>k</sub> > 0, Ω<sub>m</sub> = 0.9, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = 0 
+            * Euclidean Universe Parameters: Ω<sub>k</sub> = 0, Ω<sub>m</sub> = 0.3, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = (1 - Ω<sub>m</sub> - Ω<sub>r</sub>) 
+            * Spherical Universe Parameters: Ω<sub>k</sub> < 0, Ω<sub>m</sub> = 0.3, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = 0.8
         * --> If you answer 'no', it will (later) ask you for your custom Omega_m and Omega_r parameters to plot/visualize a Euclidean universe.
     * Question 2 will ask until what redshift would you like to plot/visualize. This must be any number (integer or decimal) between the given bounds: 10 <= redshift <= 1100. You will be asked in Question 3 whether you would like to make a visualization/movie. These redshift bounds are to simply ensure that the visualization renders appropriately (should you choose to go that route). 
     * Question 3 will ask whether you would like to make a visualization/movie.
@@ -47,8 +47,8 @@ This tool enables you to plot and visualize either all 3 universes (Hyperbolic, 
 ### 🔭 Extraneous Files 👣
 
 There are 2 extraneous scripts that I coded while developing this project; although ***not applicable*** to this project, they could be used for either further development of this project or for any other purpose. The 2 extraneous scripts are:
-* cosmic_visualization.py - visualizing our solar system in 2D using Python Turtle Graphics
-* cosmic_visualization_v2.py - visualizing our solar system in 3D using Python Turtle Graphics. Allows you to change perspective using up and down arrows.
+* `cosmic_visualization.py` - visualizing our solar system in 2D using Python Turtle Graphics
+* `cosmic_visualization_v2.py` - (super cool) visualizing our solar system in 3D using Python Turtle Graphics. Allows you to change perspective using up and down arrows.
 
 Feel free to run these scripts, if you'd like, to view the solar system visualizations.
 
@@ -65,6 +65,6 @@ Feel free to run these scripts, if you'd like, to view the solar system visualiz
 FFMPEG
 
 #### 👉 Developer Tools & Hosting
-![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green) \
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) \
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
