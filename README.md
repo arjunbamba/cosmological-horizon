@@ -1,10 +1,10 @@
 ## ✨ Cosmological Horizon Plotting/Visualization Tool 💫
 
 ### 🌱 Introduction 🚀
-Physics 495 (Senior Project) - Fall 2021 \
-Project Mentor: Professor Vera Gluscevic \
-Developer: Arjun Bamba \
-Contact: arjunbam@usc.edu
+**Physics 495 (Senior Project) - Fall 2021** \
+**Project Mentor**: Professor Vera Gluscevic \
+**Developer**: Arjun Bamba \
+**Contact**: arjunbam@usc.edu
 
 This tool enables you to plot and visualize either all 3 universes (Hyperbolic, Euclidean, Spherical) using default parameters or just the Euclidean universe alone using custom parameters.
 
@@ -22,18 +22,18 @@ This tool enables you to plot and visualize either all 3 universes (Hyperbolic, 
 5. In the window that opens, navigate to and open the 'Project: cosmological-horizon-...' submenu on the left side. Within the submenu, select Python Interpreter.
 
 ![Figure 1](/Figure_1.png "Figure 1")
-Figure 1
+**Figure 1**
 
 6. Click the '+' icon to add new packages. Please make sure you have the following packages installed: matplotlib, numpy, opencv-python, scipy. Others that may be needed due to dependencies: astropy, pandas.
-    * Please refer to Figure 1 that shows all packages in my environment for reference and to debug any dependency/package issues. Note: not all the packages that I have are likely needed.
+    * Please refer to **Figure 1** that shows all packages in my environment for reference and to debug any dependency/package issues. **Note: not all the packages that I have are likely needed.**
     * Also, note here that my Python Interpreter is Python 3.9.
 7. Now, to install ffmpeg, open terminal and run `brew install ffmpeg`. This command assumes that you have the Mac package manager, Homebrew, installed on your computer; if you don't, please refer to guide (b) to install homebrew first and then return to install ffmpeg.
     * a. Reference guide to install ffmpeg: https://formulae.brew.sh/formula/ffmpeg
     * b. Reference guide to install homebrew: https://brew.sh
 8. In the project panel in PyCharm, please ensure there is a `videos` subdirectory located within the root directory. This should already be there but if not, please create a new directory called `videos` in the project root directory: right-click on the root directory in the project panel and then go to New > Directory to create the `videos` subdirectory. It is in this `videos` subdirectory that the project visualization videos will be later saved.
-9. Open the 'Cosmic_Horizon.py' file.
+9. Open the `Cosmic_Horizon.py` file.
 10. Right-click on the open `Cosmic_Horizon.py` tab and click on `Run 'Cosmic_Horizon'`. 
-11. Follow the on-screen instructions in the console - the following information will be displayed in the console at the start of the program to explain how the tool functions: \
+11. Follow the on-screen instructions in the console - the following information will be displayed in the console at the start of the program to explain how the tool functions:
 
     Using this tool, you will have the option to plot and visualize either all 3 universes (Hyperbolic, Euclidean, Spherical) using default parameters or just the Euclidean universe alone using custom parameters.
     You will be asked 3-4 questions: 
