@@ -180,8 +180,8 @@ def main():
     print("\nWELCOME TO THE COSMOLOGICAL HORIZON VISUALIZATION TOOL! \n")
     print(
         "Using this tool, you will have the option to plot and visualize either all 3 universes (Hyperbolic, "
-        "Euclidean, Spherical) using default parameters or just the Euclidean universe alone using custom "
-        "parameters.\nYou will be asked 2 questions: "
+        "Euclidean, Spherical) using default parameters\nor just the Euclidean universe alone using custom "
+        "parameters.\nYou will be asked 3-4 questions: "
     )
     print(
         "\tQuestion 1 will ask whether you would like to plot all 3 universes using default parameters.\n "
@@ -193,15 +193,23 @@ def main():
         "\t\t\tSpherical Universe Parameters: Ω_k < 0, Ω_m = 0.3, Ω_r = 10^-4, Ω_l = 0.8"
     )
     print(
-        "\t--> If you answer 'no', it will ask you for your custom Omega_m and Omega_r parameters to plot/visualize "
-        "a Euclidean universe."
+        "\t--> If you answer 'no', it will (later) ask you for your custom Omega_m and Omega_r parameters to "
+        "plot/visualize a Euclidean universe."
     )
     print(
-        "\n\tQuestion 2 will ask whether you would like to make a visualization/movie."
+        "\n\tQuestion 2 will ask until what redshift would you like to plot/visualize. This must be any number "
+        "(integer or decimal) between the given\n\tbounds: 10 <= redshift <= 1100. You will be asked in Question 3 "
+        "whether you would like to make a visualization/movie. These redshift\n\tbounds are to simply ensure that the "
+        "visualization renders appropriately (should you choose to go that route). "
+    )
+    print(
+        "\n\tQuestion 3 will ask whether you would like to make a visualization/movie."
     )
     print(
         "\t--> If you answer 'yes', depending on how you answered Question 1, it will proceed to make a visualization "
-        "for either all 3 universes or only the Euclidean one. "
+        "for either all 3 universes or\n\tonly the Euclidean one. Image frames will be saved in automatically created "
+        "directories named 'images_[type of universe]' and the visualization video will be stored in the 'videos' "
+        "directory with name 'Visualization_[type of universe]'."
     )
     print(
         "\t--> If you answer 'no', it will proceed to simply plot the universe(s).\n"

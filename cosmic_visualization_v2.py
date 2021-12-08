@@ -1,7 +1,7 @@
 # Super easy solar system based on the unit circle
 # with coordinates (cosx, siny)
+
 # Arjun Bamba
-# Moving the sun gives an idea of vortex movements of the planets and moons
 
 import turtle
 import time

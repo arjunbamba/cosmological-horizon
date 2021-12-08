@@ -1,0 +1,1 @@
+Visualization videos from running the program will be saved in this directory.
