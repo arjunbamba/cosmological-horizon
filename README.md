@@ -20,6 +20,10 @@ This tool enables you to plot and visualize either all 3 universes (Hyperbolic, 
 3. The primary files in this project assume that you have certain packages/dependencies installed (e.g. matplotlib, numpy, opencv-python, scipy, ffmpeg, etc.). If you do not have these packages installed in PyCharm, please continue with step 4. Otherwise, if you do have these packages installed, skip to step 8.
 4. To install the needed dependencies, from the main menu bar, select PyCharm > Preferences. 
 5. In the window that opens, navigate to and open the 'Project: cosmological-horizon-...' submenu on the left side. Within the submenu, select Python Interpreter.
+
+![Figure 1](/Figure_1.png "Figure 1")
+Figure 1
+
 6. Click the '+' icon to add new packages. Please make sure you have the following packages installed: matplotlib, numpy, opencv-python, scipy. Others that may be needed due to dependencies: astropy, pandas.
     * Please refer to Figure 1 that shows all packages in my environment for reference and to debug any dependency/package issues. Note: not all the packages that I have are likely needed.
     * Also, note here that my Python Interpreter is Python 3.9.
@@ -30,10 +34,11 @@ This tool enables you to plot and visualize either all 3 universes (Hyperbolic, 
 9. Open the 'Cosmic_Horizon.py' file.
 10. Right-click on the open `Cosmic_Horizon.py` tab and click on `Run 'Cosmic_Horizon'`. 
 11. Follow the on-screen instructions in the console - the following information will be displayed in the console at the start of the program to explain how the tool functions: \
+
     Using this tool, you will have the option to plot and visualize either all 3 universes (Hyperbolic, Euclidean, Spherical) using default parameters or just the Euclidean universe alone using custom parameters.
     You will be asked 3-4 questions: 
     * Question 1 will ask whether you would like to plot all 3 universes using default parameters.
-        * --> If you answer 'yes', it will proceed to plot all 3 universes using the following default parameters: \
+        * --> If you answer 'yes', it will proceed to plot all 3 universes using the following default parameters:
             * Universe Parameters: Ω<sub>k</sub> > 0, Ω<sub>m</sub> = 0.9, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = 0 
             * Euclidean Universe Parameters: Ω<sub>k</sub> = 0, Ω<sub>m</sub> = 0.3, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = (1 - Ω<sub>m</sub> - Ω<sub>r</sub>) 
             * Spherical Universe Parameters: Ω<sub>k</sub> < 0, Ω<sub>m</sub> = 0.3, Ω<sub>r</sub> = 10<sup>-4</sup>, Ω<sub>l</sub> = 0.8
