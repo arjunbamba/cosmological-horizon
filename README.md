@@ -84,8 +84,9 @@ FFMPEG
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 
-### Additional Resources Used
-* Physics(Dourmac): https://dournac.org/info/size_universe
+### 💡 Additional Resources Used 📄
+
+* Physics (Dourmac): https://dournac.org/info/size_universe
 * Physics: http://hyperphysics.phy-astr.gsu.edu/hbase/Astro/denpar.html
 * Physics: https://uh.edu/~vanderse/astronomy/uni_age.html
 * Physics: https://astronomy.swin.edu.au/cosmos/c/cosmological+redshift
