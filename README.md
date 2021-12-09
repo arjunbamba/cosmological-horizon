@@ -85,18 +85,18 @@ FFMPEG
 
 
 ### Additional Resources Used
-Dourmac: https://dournac.org/info/size_universe
-Desmos Graphing Calculator: https://www.desmos.com/calculator/2pvejc3acq
-Coding Integration: https://towardsdatascience.com/a-simple-method-for-numerical-integration-in-python-7906c1703af8
-Coding Integration: https://docs.scipy.org/doc/scipy/reference/tutorial/integrate.html
-Coding sinh: https://numpy.org/doc/stable/reference/generated/numpy.sinh.html
-Matplotlib: https://pythonspot.com/matplotlib-save-figure-to-image-file/
-Documentation: https://docs.python.org/3.9/library/functools.html#functools.partial
-Documentation: https://www.pythontutorial.net/python-basics/python-partial-functions/
-Physics: http://hyperphysics.phy-astr.gsu.edu/hbase/Astro/denpar.html
-Physics: https://uh.edu/~vanderse/astronomy/uni_age.html
-Physics: https://astronomy.swin.edu.au/cosmos/c/cosmological+redshift
-Physics: https://hubblesite.org/contents/media/images/4509-Image.html
-FFMPEG: https://formulae.brew.sh/formula/ffmpeg
+* Physics(Dourmac): https://dournac.org/info/size_universe
+* Physics: http://hyperphysics.phy-astr.gsu.edu/hbase/Astro/denpar.html
+* Physics: https://uh.edu/~vanderse/astronomy/uni_age.html
+* Physics: https://astronomy.swin.edu.au/cosmos/c/cosmological+redshift
+* Physics: https://hubblesite.org/contents/media/images/4509-Image.html
+* Desmos Graphing Calculator: https://www.desmos.com/calculator/2pvejc3acq
+* Coding Integration: https://towardsdatascience.com/a-simple-method-for-numerical-integration-in-python-7906c1703af8
+* Coding Integration: https://docs.scipy.org/doc/scipy/reference/tutorial/integrate.html
+* Coding sinh: https://numpy.org/doc/stable/reference/generated/numpy.sinh.html
+* Matplotlib: https://pythonspot.com/matplotlib-save-figure-to-image-file/
+* Documentation: https://docs.python.org/3.9/library/functools.html#functools.partial
+* Documentation: https://www.pythontutorial.net/python-basics/python-partial-functions/
+* FFMPEG: https://formulae.brew.sh/formula/ffmpeg
 
 
