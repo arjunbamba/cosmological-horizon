@@ -1,5 +1,6 @@
 ## ✨ Cosmological Horizon Plotting/Visualization Tool 💫
 
+
 ### 🌱 Introduction 🚀
 **Physics 495 (Senior Project) - Fall 2021** \
 **Project Mentor**: Professor Vera Gluscevic \
@@ -64,6 +65,7 @@ There are 2 extraneous scripts that I coded while developing this project; altho
 
 Feel free to run these scripts, if you'd like, to view the solar system visualizations.
 
+
 ### 🛠 &nbsp;Tech Stack
 
 #### 👉 Programming
@@ -80,3 +82,21 @@ FFMPEG
 ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green) \
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) \
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+
+### Additional Resources Used
+Dourmac: https://dournac.org/info/size_universe
+Desmos Graphing Calculator: https://www.desmos.com/calculator/2pvejc3acq
+Coding Integration: https://towardsdatascience.com/a-simple-method-for-numerical-integration-in-python-7906c1703af8
+Coding Integration: https://docs.scipy.org/doc/scipy/reference/tutorial/integrate.html
+Coding sinh: https://numpy.org/doc/stable/reference/generated/numpy.sinh.html
+Matplotlib: https://pythonspot.com/matplotlib-save-figure-to-image-file/
+Documentation: https://docs.python.org/3.9/library/functools.html#functools.partial
+Documentation: https://www.pythontutorial.net/python-basics/python-partial-functions/
+Physics: http://hyperphysics.phy-astr.gsu.edu/hbase/Astro/denpar.html
+Physics: https://uh.edu/~vanderse/astronomy/uni_age.html
+Physics: https://astronomy.swin.edu.au/cosmos/c/cosmological+redshift
+Physics: https://hubblesite.org/contents/media/images/4509-Image.html
+FFMPEG: https://formulae.brew.sh/formula/ffmpeg
+
+
